@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="object1">
+  <link name="object1_link">
+    <visual>
+      <geometry>
+        <mesh filename="/meshes/housing sim.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="/meshes/housing sim.dae"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="1" ixy="0.0" ixz="0.0" iyy="1" iyz="0.0" izz="1"/>
+    </inertial>
+  </link>
+</robot>
